@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(140, 230, 255);
+}
+#main{
+   width: 500px;
+   padding: 10px;
+   height: 500px;
+   background-color: rgb(197, 241, 255);
+   margin-top: 80px;
+   box-shadow: 5px 5px 22px 1px #9393E4;
+   border-radius: 50%;
+}
+p{
+    font-size: 60px;
+    margin-top: 210px;
+    color: black;
+}
+span{
+    color: orangered;
+}
+#start{
+    background-color: chartreuse;
+    border-bottom-left-radius: 50px;
+}
+#pause{
+    background-color: yellow;
+}
+#restart{
+    background-color: red;
+    border-bottom-right-radius: 50px;
+}
+button{
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: orangered;
+}

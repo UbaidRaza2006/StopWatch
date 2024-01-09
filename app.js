@@ -24,6 +24,9 @@ function start() {
         }
         document.getElementById("show").innerHTML = `${hours}<span>:</span>${min}<span>:</span>${sec}<span>:</span>${milliSec}`
     }, 10)
+
+    document.getElementById("start").innerHTML = '2x'
+
 }
 function restart() {
     location.reload()
